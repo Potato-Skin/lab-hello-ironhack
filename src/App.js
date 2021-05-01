@@ -27,7 +27,7 @@ function Header(props) {
 
 function Button() {
   return (
-    <button style={{ padding: "20px", color: "#282c34", margin: "30px" }}>
+    <button style={{ padding: "20px", color: "#282c34", margin: "30px 0" }}>
       Awesome!
     </button>
   );
