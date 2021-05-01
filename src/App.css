@@ -10,3 +10,31 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.navbar {
+  background-color: #282c34;
+  padding: 20px;
+  color: #282c34;
+  margin: 0;
+}
+
+.header-div {
+  padding: 100px 0 50px 50px;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 0;
+}
+
+.header-div p {
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-div {
+  background-color: white;
+  color: #282c34;
+  display: flex;
+  justify-content: space-around;
+}

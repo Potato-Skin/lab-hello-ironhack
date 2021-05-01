@@ -3,7 +3,7 @@ import SmallDiv from "./SmallDiv.js";
 
 function Navbar() {
   return (
-    <nav style={{ backgroundColor: "#282c34", padding: "20px" }}>
+    <nav className="navbar">
       <img src="/images/ironhack-logo.svg" alt="not found" />
     </nav>
   );
@@ -11,15 +11,11 @@ function Navbar() {
 
 function Header(props) {
   return (
-    <div className="header-div" style={{ padding: "100px 0 50px 50px" }}>
-      <h1 style={{ fontSize: "100px", margin: "0" }}>Say hello to ReactJS</h1>
-      <p style={{ padding: "0", margin: "0" }}>You will learn how to use</p>
-      <p style={{ padding: "0", margin: "0" }}>
-        the most popular frontend library,
-      </p>
-      <p style={{ padding: "0", margin: "0" }}>
-        and become a super Ninja developer.
-      </p>
+    <div className="header-div">
+      <h1>Say hello to ReactJS</h1>
+      <p>You will learn how to use</p>
+      <p>the most popular frontend library,</p>
+      <p>and become a super Ninja developer.</p>
       {props.Button()}
     </div>
   );
@@ -35,14 +31,7 @@ function Button() {
 
 function BottomSection() {
   return (
-    <div
-      style={{
-        backgroundColor: "white",
-        color: "#282c34",
-        display: "flex",
-        justifyContent: "space-around",
-      }}
-    >
+    <div className="bottom-div">
       <SmallDiv
         image="/images/icon1.png"
         title="Declarative"
