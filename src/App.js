@@ -11,7 +11,7 @@ function Navbar() {
 
 function Header(props) {
   return (
-    <div style={{ padding: "100px 0 50px 50px" }}>
+    <div className="header-div" style={{ padding: "100px 0 50px 50px" }}>
       <h1 style={{ fontSize: "100px", margin: "0" }}>Say hello to ReactJS</h1>
       <p style={{ padding: "0", margin: "0" }}>You will learn how to use</p>
       <p style={{ padding: "0", margin: "0" }}>
